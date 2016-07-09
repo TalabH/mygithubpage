@@ -1,11 +1,23 @@
-.main{
-	padding: 50px;
-	text-align: center;
+header .container{
+	padding-top: 75px;
 }
-header img{
-	width: 200px;
-	height: 200px;
+	img{
+	vertical-align: middle;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%;
+}
+.intro-text{text-align: center; color: white;}
+
+.name{
+	display: block;
+	font-weight: 700;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+.skills{
+	font-size: 1.25em;
+	font-weight: 300;
 }
 body{
 	-webkit-animation: pulse 30s infinite; animation: pulse 30s infinite;
