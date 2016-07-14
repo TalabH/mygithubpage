@@ -1,33 +1,3 @@
-body{
-	-webkit-animation: pulse 30s infinite; animation: pulse 30s infinite;
-}
-
-@-webkit-keyframes pulse{
-	0%{background:#03A9F4;}
-	25%{background:#00E676;}
-	50%{background:#2dace3;}
-	75%{background:#4CAF50;}
-	90%{background:#006064;}
-	100%{background:#03A9F4;
-}
-
-@keyframes pulse{
-	0%{background:#03A9F4;}
-	25%{background:#00E676;}
-	50%{background:#2dace3;}
-	75%{background:#4CAF50;}
-	90%{background:#006064;}
-	100%{background:#03A9F4;
-}
-
-#wrapper{
-	position:relative;
-	overflow-y: hidden;
-	overflow-x: hidden;
-	height: 100%;
-	width: 100%;
-}
-
 .social {
     margin: 0;
     padding: 0;
@@ -93,7 +63,6 @@ body{
 .social .fa-gamepad:hover{
 	background: #7DC265;
 }
-
 header .container{
 	padding-top: 75px;
 }
@@ -114,4 +83,33 @@ header .container{
 .skills{
 	font-size: 1.25em;
 	font-weight: 300;
+}
+body{
+	 height: 100vh;
+	-webkit-animation: pulse 30s infinite;
+	animation: pulse 30s infinite;
+}
+
+@-webkit-keyframes pulse{
+	0%{background:#03A9F4;}
+	25%{background:#00E676;}
+	50%{background:#2dace3;}
+	75%{background:#4CAF50;}
+	90%{background:#006064;}
+	100%{background:#03A9F4;
+}
+
+@keyframes pulse{
+	0%{background:#03A9F4;}
+	25%{background:#00E676;}
+	50%{background:#2dace3;}
+	75%{background:#4CAF50;}
+	90%{background:#006064;}
+	100%{background:#03A9F4;
+}
+
+#wrapper{
+	position:relative;
+	overflow-y: hidden;
+	overflow-x: hidden;
 }
