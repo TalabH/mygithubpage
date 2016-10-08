@@ -1,92 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Talab Hussein</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <!-- Bootstrap Core CSS -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <title>Talab Hussein</title>
+	    <!-- Custom CSS -->
+	    <link href="css/style.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <!-- Custom Fonts -->
+	    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	</head>
 
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+	<body >
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-</head>
+	    <!-- Menu Btn -->
+	    <a id="menu-toggle" href="#" class="btn btn-info btn-lg toggle">MENU <i class="fa fa-bars"></i></a>
+	    <nav id="sidebar-wrapper">
+	        <ul class="sidebar-nav text-vertical-center">
 
-<body >
+	        	<!-- Close Btn -->
+	            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+	            
+	            <!-- Menu Title -->
+	            <li class="sidebar-brand text-vertical-center"></li><hr>
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-info btn-lg toggle" style="margin-right: 2%; margin-top: 2%;">MENU <i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand ">
-                <a>Menu</a>
-            </li><hr>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="about.html">About</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
+	            <!-- Index Btn -->
+	            <li>
+	                <a href="index.html"><strong>Home</strong></a>
+	            </li>
 
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <img src="img/me.jpeg" />
-            <h2>Talab Hussein</h2>
-            <h3>Software Engineer &amp; Entrepreneur</h3>
-            <br>
-            <a href="https://play.google.com/store/apps/developer?id=Gamify+Studios&hl=en" class="btn btn-dark btn-lg">View Portfolio!</a>
-            <a href="award.pdf" class="btn btn-dark btn-lg">View Award</a>
-            <a href="https://github.com/TalabH" class="btn btn-dark btn-lg">View Code</a><br><br>
-            <div class="link">
-                <ul class="list-inline" style="font-size:45px; background-color: rgba(0,0,0,0.5);">
+	            <!-- About Btn -->
+	            <li>
+	                <a href="about.html"><strong>About</strong></a>
+	            </li>
 
-                    
-                    <li><a href="https://github.com/TalabH"><i class="fa fa-github-square"></i></a></li>
-                    <li><a href="https://play.google.com/store/apps/developer?id=Gamify+Studios&hl=en"><i class="fa fa-android"></i></a></li>
-                    <li><a href="https://plus.google.com/115050446008183027973"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="https://soundcloud.com/talabh"><i class="fa fa-soundcloud"></i></a></li>
-                    <li><a href="https://www.youtube.com/watch?v=o2_uT8qcJys"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="http://talab.yelp.com"><i class="fa fa-yelp"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
+	            <!-- Contact Btn-->
+	            <li>
+	                <a href="contact.html"><strong>Contact</strong></a>
+	            </li>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+	        </ul>
+	    </nav>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+	    <!-- Header -->
+	    <header id="top" class="header">
+	        <div class="text-vertical-center">
 
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    </script>
+	        	<!-- Title -->
+	            <img src="img/me.jpeg" />
+	            <h2>Talab Hussein</h2>
+	            <h3>Software Engineer &amp; Entrepreneur</h3><br>
 
-</body>
+	            <!-- Buttons -->
+
+	            <!-- Btn1 Portfolio -->
+	            <a href="https://play.google.com/store/apps/developer?id=Gamify+Studios&hl=en" class="btn btn-dark btn-lg">View Portfolio!</a>
+
+	            <!-- Btn2 Award -->
+	            <a href="award.pdf" class="btn btn-dark btn-lg">View Award</a>
+
+	            <!-- Btn3 Code/GitHub -->
+	            <a href="https://github.com/TalabH" class="btn btn-dark btn-lg">View Code</a><br><br>
+
+	            <!-- Social Icons -->
+	            <div class="link">
+	                <ul class="list-inline" style="font-size:45px; background-color: rgba(0,0,0,0.5);">
+
+	                	<!-- GitHub -->
+	                    <li><a href="https://github.com/TalabH"><i class="fa fa-github-square"></i></a></li>
+
+	                    <!-- Start up -->
+	                    <li><a href="https://play.google.com/store/apps/developer?id=Gamify+Studios&hl=en"><i class="fa fa-android"></i></a></li>
+
+	                    <!-- Google + -->
+	                    <li><a href="https://plus.google.com/115050446008183027973"><i class="fa fa-google-plus"></i></a></li>
+
+	                    <!-- SoundCloud -->
+	                    <li><a href="https://soundcloud.com/talabh"><i class="fa fa-soundcloud"></i></a></li>
+
+	                    <!-- Pinterest -->
+	                    <li><a href="http://www.pinterest.com/talab_h"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+
+	                    <!-- YouTube -->
+	                    <li><a href="https://www.youtube.com/watch?v=o2_uT8qcJys"><i class="fa fa-youtube"></i></a></li>
+
+	                    <!-- Yelp -->
+	                    <li><a href="http://talab.yelp.com"><i class="fa fa-yelp"></i></a></li>
+
+	                </ul>
+	            </div>
+	        </div>
+	    </header>
+
+	    <!-- jQuery -->
+	    <script src="js/jquery.js"></script>
+
+	    <!-- Bootstrap Core JavaScript -->
+	    <script src="js/bootstrap.min.js"></script>
+
+	    <!-- Menu Script -->
+	    <script>
+	    // Closes the sidebar menu
+	    $("#menu-close").click(function(e) {
+	        e.preventDefault();
+	        $("#sidebar-wrapper").toggleClass("active");
+	    });
+	    // Opens the sidebar menu
+	    $("#menu-toggle").click(function(e) {
+	        e.preventDefault();
+	        $("#sidebar-wrapper").toggleClass("active");
+	    });
+	    </script>
+	</body>
 
 </html>
